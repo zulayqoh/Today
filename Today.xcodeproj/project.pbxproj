@@ -16,6 +16,7 @@
 		0417DC1929882E62003BB587 /* TodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417DC1829882E62003BB587 /* TodayTests.swift */; };
 		0417DC2329882E62003BB587 /* TodayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417DC2229882E62003BB587 /* TodayUITests.swift */; };
 		0417DC2529882E62003BB587 /* TodayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417DC2429882E62003BB587 /* TodayUITestsLaunchTests.swift */; };
+		0417DC3329883477003BB587 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417DC3229883477003BB587 /* Reminders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0417DC1E29882E62003BB587 /* TodayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0417DC2229882E62003BB587 /* TodayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITests.swift; sourceTree = "<group>"; };
 		0417DC2429882E62003BB587 /* TodayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0417DC3229883477003BB587 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		0417DC0029882E60003BB587 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				0417DC31298833FF003BB587 /* Models */,
 				0417DC0129882E60003BB587 /* AppDelegate.swift */,
 				0417DC0329882E60003BB587 /* SceneDelegate.swift */,
 				0417DC0529882E60003BB587 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				0417DC2429882E62003BB587 /* TodayUITestsLaunchTests.swift */,
 			);
 			path = TodayUITests;
+			sourceTree = "<group>";
+		};
+		0417DC31298833FF003BB587 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0417DC3229883477003BB587 /* Reminders.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				0417DC0629882E60003BB587 /* ViewController.swift in Sources */,
 				0417DC0229882E60003BB587 /* AppDelegate.swift in Sources */,
 				0417DC0429882E60003BB587 /* SceneDelegate.swift in Sources */,
+				0417DC3329883477003BB587 /* Reminders.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
