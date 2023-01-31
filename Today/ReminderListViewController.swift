@@ -15,6 +15,10 @@ class ReminderListViewController: UICollectionViewController {
         
         let listLayout = listLayout()
         collectionView.collectionViewLayout = listLayout
+        
+        let cellRegistration = UICollectionView.CellRegistration {
+            (cell: UICollectionViewCell, indexPath: IndexPath, identifier: String) in            let reminder = Reminder.sampleData[indexPath.item]
+        }
     }
 
     // A function that creates a new list configuration variable with the grouped appearance
