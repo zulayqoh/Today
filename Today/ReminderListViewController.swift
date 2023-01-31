@@ -14,6 +14,7 @@ class ReminderListViewController: UICollectionViewController {
         // Do any additional setup after loading the view.
         
         let listLayout = listLayout()
+        collectionView.collectionViewLayout = listLayout
     }
 
     // A function that creates a new list configuration variable with the grouped appearance
