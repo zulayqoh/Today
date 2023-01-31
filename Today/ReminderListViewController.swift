@@ -12,6 +12,8 @@ class ReminderListViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let listLayout = listLayout()
     }
 
     // A function that creates a new list configuration variable with the grouped appearance
