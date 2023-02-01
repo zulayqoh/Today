@@ -10,6 +10,7 @@ import UIKit
 class ReminderListViewController: UICollectionViewController {
     
     typealias DataSource = UICollectionViewDiffableDataSource<Int, String>
+    typealias SnapShot = NSDiffableDataSourceSnapshot<Int, String>
     
     var dataSource: DataSource!
 
