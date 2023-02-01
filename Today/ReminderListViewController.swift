@@ -10,6 +10,8 @@ import UIKit
 class ReminderListViewController: UICollectionViewController {
     
     typealias DataSource = UICollectionViewDiffableDataSource<Int, String>
+    
+    var dataSource: DataSource!
 
     override func viewDidLoad() {
         super.viewDidLoad()
