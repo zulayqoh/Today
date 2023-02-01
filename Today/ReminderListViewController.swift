@@ -27,6 +27,11 @@ class ReminderListViewController: UICollectionViewController {
             contentConfiguration.text = reminder.title
             cell.contentConfiguration = contentConfiguration
         }
+        
+        dataSource = DataSource(collectionView: collectionView) {
+        (collectionView: UICollectionView,indexPath: IndexPath,itemIdentifier: String ) in
+            return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: itemIdentifier)
+        }
     }
 
     // A function that creates a new list configuration variable with the grouped appearance
