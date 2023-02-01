@@ -19,6 +19,8 @@ class ReminderListViewController: UICollectionViewController {
         let cellRegistration = UICollectionView.CellRegistration {
             (cell: UICollectionViewListCell, indexPath: IndexPath, identifier: String) in
             let reminder = Reminder.sampleData[indexPath.item]
+            var contentConfiguration = cell.defaultContentConfiguration()
+            
         }
     }
 
