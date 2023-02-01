@@ -36,6 +36,10 @@ class ReminderListViewController: UICollectionViewController {
         
         var snapShot = SnapShot()
         snapShot.appendSections([0])
+        var reminderTitles = [String]()
+        for reminder in Reminder.sampleData {
+            reminderTitles.append(reminder.title)
+        }
     }
 
     // A function that creates a new list configuration variable with the grouped appearance
