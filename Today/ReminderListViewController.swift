@@ -33,6 +33,9 @@ class ReminderListViewController: UICollectionViewController {
         (collectionView: UICollectionView,indexPath: IndexPath,itemIdentifier: String ) in
             return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: itemIdentifier)
         }
+        
+        var snapShot = SnapShot()
+        snapShot.appendSections([0])
     }
 
     // A function that creates a new list configuration variable with the grouped appearance
